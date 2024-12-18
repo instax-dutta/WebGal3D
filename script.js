@@ -65,6 +65,7 @@ const images = [
     "https://i.postimg.cc/0561P6Hv/SZV02652.jpg",
     "https://i.postimg.cc/7Pp86xp2/SZV02653.jpg",
     "https://i.postimg.cc/bwcCXr4m/SZV02654.jpg",
+    "https://i.postimg.cc/9MQNBsHj/IMG-1097.jpg",
   ];
   
   let currentIndex = 0;
