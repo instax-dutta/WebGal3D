@@ -82,34 +82,3 @@ footer {
 footer p:nth-child(2) {
   margin-top: 5px;
 }
-
-/* Additional styles for the order page */
-.order-now-container {
-  margin-top: 40px;
-  text-align: center;
-}
-
-#order-now-button {
-  background-color: #1f1f1f; /* Dark button */
-  color: #f4f4f9;
-  border: none;
-  padding: 10px 20px; /* Match the padding of the other buttons */
-  font-size: 16px; /* Match the font size of the other buttons */
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px; /* Match the border radius of the other buttons */
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-#order-now-button:hover {
-  background-color: #333; /* Lighter hover */
-}
-
-#order-now-button:active {
-  transform: scale(0.95);
-}
-
-
-
-
-
