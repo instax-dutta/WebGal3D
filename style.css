@@ -90,8 +90,8 @@ footer p:nth-child(2) {
 }
 
 #order-now-button {
-  background-color: #1900ff; /* Eye-catching orange button */
-  color: #ffffff;
+  background-color: #1f1f1f; /* Dark button */
+  color: #f4f4f9;
   border: none;
   padding: 18px 40px;
   font-size: 20px;
@@ -103,12 +103,13 @@ footer p:nth-child(2) {
 }
 
 #order-now-button:hover {
-  background-color: #ff5733;
+  background-color: #333; /* Lighter hover */
 }
 
 #order-now-button:active {
   transform: scale(0.95);
 }
+
 
 
 
