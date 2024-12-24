@@ -93,13 +93,12 @@ footer p:nth-child(2) {
   background-color: #1f1f1f; /* Dark button */
   color: #f4f4f9;
   border: none;
-  padding: 18px 40px;
-  font-size: 20px;
+  padding: 10px 20px; /* Match the padding of the other buttons */
+  font-size: 16px; /* Match the font size of the other buttons */
   font-weight: bold;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 5px; /* Match the border radius of the other buttons */
   transition: background-color 0.3s, transform 0.2s;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 #order-now-button:hover {
@@ -109,6 +108,7 @@ footer p:nth-child(2) {
 #order-now-button:active {
   transform: scale(0.95);
 }
+
 
 
 
