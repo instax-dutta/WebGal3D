@@ -44,7 +44,6 @@ main {
   max-height: 80vh;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Image shadow for better contrast */
-  transition: transform 0.5s ease, opacity 0.5s ease-in-out;
 }
 
 .button-container {
@@ -71,12 +70,6 @@ button:active {
   transform: scale(0.95); /* Button press effect */
 }
 
-/* Animation for image transitions */
-.fade {
-  opacity: 0;
-  transform: scale(0.9); /* Slight zoom out for smooth transition */
-}
-
 footer {
   width: 100%;
   background-color: #1f1f1f;
@@ -89,3 +82,100 @@ footer {
 footer p:nth-child(2) {
   margin-top: 5px;
 }
+
+/* Additional styles for the order page */
+.order-now-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#order-now-button {
+  background-color: #ff4500; /* Eye-catching orange button */
+  color: #ffffff;
+  border: none;
+  padding: 18px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#order-now-button:hover {
+  background-color: #ff5733;
+}
+
+#order-now-button:active {
+  transform: scale(0.95);
+}
+
+.order-form-container {
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.order-form-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.order-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #333;
+  color: #f4f4f9;
+  font-size: 16px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+  background-color: #1f1f1f;
+  color: #f4f4f9;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  display: block;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+form button:hover {
+  background-color: #333;
+}
+
+form button:active {
+  transform: scale(0.95);
+}
+
+
