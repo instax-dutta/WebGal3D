@@ -1,4 +1,4 @@
-/* Dark Theme */
+/* Gradient Background for Entire Website */
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -7,13 +7,15 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #121212; /* Dark background */
-  color: #f4f4f9; /* Light text */
+  background: #8E0E00;  /* Fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #f4f4f9; /* Light text for contrast */
 }
 
 header {
   width: 100%;
-  background-color: #1f1f1f;
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* Gradient for header */
   padding: 20px 0;
 }
 
@@ -48,6 +50,8 @@ main {
 
 .button-container {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -72,7 +76,7 @@ button:active {
 
 footer {
   width: 100%;
-  background-color: #1f1f1f;
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* Gradient for footer */
   padding: 10px 0;
   text-align: center;
   font-size: 14px;
